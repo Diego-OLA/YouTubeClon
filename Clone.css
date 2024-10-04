@@ -193,3 +193,75 @@ img {
   background-color: white;
   color: #303030;
 }
+.main-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 10px;
+  padding: 40px 0;
+  column-gap: 15px;
+  row-gap: 35px;
+}
+.card {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.img-container {
+  height: 210px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.logo-user-card {
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+}
+.logo-user-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title-card {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+.video-title {
+  margin-bottom: 3px;
+  color: white;
+}
+.user-name-container svg {
+  height: 15px;
+  color: #aaaa;
+}
+.user-name-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #aaaa;
+}
+.user-name,
+.video-description {
+  font-size: 14px;
+  color: #aaaa;
+}
+
+.video-option-container {
+}
+.video-option-container svg {
+  height: 24px;
+  color: white;
+}
